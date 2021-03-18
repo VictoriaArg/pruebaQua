@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const folderPath = '../files'
+const folderPath = __dirname + '/files'
 
 const fileReader = fs.readdirSync(folderPath).map(file => {
     const userFile = path.join(file)
@@ -46,9 +46,5 @@ const dataFilter = () => {
 
     return data;
   }
-
-  
-  
-console.log(dataFilter())
 
 module.exports = { dataFilter }
