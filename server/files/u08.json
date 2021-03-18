@@ -1,0 +1,8 @@
+{
+    "name": "User 8",
+    "modulos":
+    {
+    "content_module": "authz.provider_1",
+    "auth_module": "authn.provider_3"
+    }
+    }
